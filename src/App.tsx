@@ -78,11 +78,11 @@ const router = createBrowserRouter([
         path: "/",
         element: <Calendar />,
       },
+      {
+        path: "about",
+        element: <div>About</div>,
+      },
     ],
-  },
-  {
-    path: "about",
-    element: <div>About</div>,
   },
 ]);
 
