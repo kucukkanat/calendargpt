@@ -8,7 +8,7 @@ import {
   Outlet,
 } from "react-router-dom";
 import { useMantineTheme, Group } from "@mantine/core";
-import Calendar from "./Calendar";
+import Calendar from "./components/Calendar/Calendar";
 
 function Root() {
   const {

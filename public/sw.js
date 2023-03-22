@@ -1,4 +1,4 @@
-const cacheName = "v1.1.0";
+const cacheName = "v1.0.0";
 const precacheList = ["/"];
 
 self.addEventListener("install", (e) => {
@@ -17,6 +17,9 @@ self.addEventListener("install", (e) => {
 });
 
 self.addEventListener("fetch", (e) => {
+  if (e.request.url.includes("chrome-extension")) {
+    return;
+  }
   e.respondWith(
     (async () => {
       const r = await caches.match(e.request);
@@ -26,9 +29,7 @@ self.addEventListener("fetch", (e) => {
       }
       const response = await fetch(e.request);
       const cache = await caches.open(cacheName);
-      if (e.request.url.includes("chrome-extension")) {
-        return;
-      }
+
       console.log(`[Service Worker] Caching new resource: ${e.request.url}`);
       cache.put(e.request, response.clone());
       return response;
