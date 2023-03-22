@@ -455,6 +455,11 @@
   resolved "https://registry.yarnpkg.com/@fullcalendar/daygrid/-/daygrid-6.1.4.tgz#fe1335eaa7a4e60ee4b0e6b3896b32398fac6c2c"
   integrity sha512-X0QWEiA/hT8GYiQzmXt9DlZTWaQbNtBHBXGtaMNcVXbGHDCzLoWTHrde/jABGfr/i2+d9sLUO4oTtwz2HVpNtQ==
 
+"@fullcalendar/icalendar@^6.1.5":
+  version "6.1.5"
+  resolved "https://registry.yarnpkg.com/@fullcalendar/icalendar/-/icalendar-6.1.5.tgz#f185e542f27fac98db7b46dda4f997a60e3667df"
+  integrity sha512-BltcqhGN8J7gsKmde2HBQl6D/SzDZAaon9GJmH+45LUFYgU/piApaL0H3GMxqzpYaUe+XFZdfI6caKBUauDuCg==
+
 "@fullcalendar/interaction@^6.1.4":
   version "6.1.4"
   resolved "https://registry.yarnpkg.com/@fullcalendar/interaction/-/interaction-6.1.4.tgz#4816f29a4af824937be4639800cbafbca63e1af8"
@@ -523,6 +528,13 @@
     "@radix-ui/react-scroll-area" "1.0.2"
     react-remove-scroll "^2.5.5"
     react-textarea-autosize "8.3.4"
+
+"@mantine/dates@^6.0.4":
+  version "6.0.4"
+  resolved "https://registry.yarnpkg.com/@mantine/dates/-/dates-6.0.4.tgz#44049c2c1adf99a3c3be752173a26d42cd6d20c6"
+  integrity sha512-6uia4B+FOSI7Qx3FLqkJEM4bSqtEutEY2+t2GCeKEHPJRyeA1yC1uFV3IiF6B+Rnx49xCl9ru6rfOyA7MhN79Q==
+  dependencies:
+    "@mantine/utils" "6.0.4"
 
 "@mantine/form@^6.0.4":
   version "6.0.4"
@@ -660,6 +672,19 @@
   resolved "https://registry.yarnpkg.com/@remix-run/router/-/router-1.4.0.tgz#74935d538e4df8893e47831a7aea362f295bcd39"
   integrity sha512-BJ9SxXux8zAg991UmT8slpwpsd31K1dHHbD3Ba4VzD+liLQ4WAMSxQp2d2ZPRPfN0jN2NPRowcSSoM7lCaF08Q==
 
+"@tabler/icons-react@^2.11.0":
+  version "2.11.0"
+  resolved "https://registry.yarnpkg.com/@tabler/icons-react/-/icons-react-2.11.0.tgz#18d512830e4e9fabe425177fa968136efa7ea372"
+  integrity sha512-Mbie8IFLrtI0sGm802Bmierle0ixIi7FVczShoLjPZwRM0da1HcD588TF7oMuQ09zd241BY+L7M/f0Q6lquBng==
+  dependencies:
+    "@tabler/icons" "2.11.0"
+    prop-types "^15.7.2"
+
+"@tabler/icons@2.11.0":
+  version "2.11.0"
+  resolved "https://registry.yarnpkg.com/@tabler/icons/-/icons-2.11.0.tgz#9767f2bb57a716ed71fdc5019ca534d5fddcc816"
+  integrity sha512-KPESQnvHoSpbAdgzDdrSmeZ9AE8fSU12fU3Cag79uXJCUkC8f741fcvPJPsFMDe0S96VSq3mMYF8JnA7a570uQ==
+
 "@types/parse-json@^4.0.0":
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/@types/parse-json/-/parse-json-4.0.0.tgz#2f8bb441434d163b35fb8ffdccd7138927ffb8c0"
@@ -690,6 +715,11 @@
   version "0.16.2"
   resolved "https://registry.yarnpkg.com/@types/scheduler/-/scheduler-0.16.2.tgz#1a62f89525723dde24ba1b01b092bf5df8ad4d39"
   integrity sha512-hppQEBDmlwhFAXKJX2KnWLYu5yMfi91yazPb2l+lbJiwW+wdo1gNeRA+3RgNSO39WYX2euey41KEwnqesU2Jew==
+
+"@vitejs/plugin-basic-ssl@^1.0.1":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@vitejs/plugin-basic-ssl/-/plugin-basic-ssl-1.0.1.tgz#48c46eab21e0730921986ce742563ae83fe7fe34"
+  integrity sha512-pcub+YbFtFhaGRTo1832FQHQSHvMrlb43974e2eS8EKleR3p1cDdkJFPci1UhwkEf1J9Bz+wKBSzqpKp7nNj2A==
 
 "@vitejs/plugin-react@^3.1.0":
   version "3.1.0"
@@ -796,6 +826,11 @@ csstype@^3.0.2:
   version "3.1.1"
   resolved "https://registry.yarnpkg.com/csstype/-/csstype-3.1.1.tgz#841b532c45c758ee546a11d5bd7b7b473c8c30b9"
   integrity sha512-DJR/VvkAvSZW9bTouZue2sSxDwdTN92uHjqeKVm+0dAqdfNykRzQ95tay8aXMBAAPpUiq4Qcug2L7neoRh2Egw==
+
+dayjs@^1.11.7:
+  version "1.11.7"
+  resolved "https://registry.yarnpkg.com/dayjs/-/dayjs-1.11.7.tgz#4b296922642f70999544d1144a2c25730fce63e2"
+  integrity sha512-+Yw9U6YO5TQohxLcIkrXBeY73WP3ejHWVvx8XCk3gxvQDCTEmS48ZrSZCKciI7Bhl/uCMyxYtE9UqRILmFphkQ==
 
 debug@^4.1.0:
   version "4.3.4"
@@ -925,6 +960,11 @@ hoist-non-react-statics@^3.3.1:
   integrity sha512-/gGivxi8JPKWNm/W0jSmzcMPpfpPLc3dY/6GxhX2hQ9iGj3aDfklV4ET7NjKpSinLpJ5vafa9iiGIEZg10SfBw==
   dependencies:
     react-is "^16.7.0"
+
+ical.js@^1.5.0:
+  version "1.5.0"
+  resolved "https://registry.yarnpkg.com/ical.js/-/ical.js-1.5.0.tgz#23213accd1d8f7248d01705acb06270a70d20662"
+  integrity sha512-7ZxMkogUkkaCx810yp0ZGKvq1ZpRgJeornPttpoxe6nYZ3NLesZe1wWMXDdwTkj/b5NtXT+Y16Aakph/ao98ZQ==
 
 import-fresh@^3.2.1:
   version "3.3.0"
@@ -1070,7 +1110,7 @@ preact@^10.0.5:
   resolved "https://registry.yarnpkg.com/preact/-/preact-10.13.1.tgz#d220bd8771b8fa197680d4917f3cefc5eed88720"
   integrity sha512-KyoXVDU5OqTpG9LXlB3+y639JAGzl8JSBXLn1J9HTSB3gbKcuInga7bZnXLlxmK94ntTs1EFeZp0lrja2AuBYQ==
 
-prop-types@^15.6.2:
+prop-types@^15.6.2, prop-types@^15.7.2:
   version "15.8.1"
   resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.8.1.tgz#67d87bf1a694f48435cf332c24af10214a3140b5"
   integrity sha512-oj87CgZICdulUohogVAR7AjlC0327U4el4L6eAvOqCeudMDVU0NThNaV+b9Df4dXgSP1gXMTnPdhfe/2qDH5cg==

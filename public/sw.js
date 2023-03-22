@@ -1,4 +1,4 @@
-const cacheName = "v1.0.2";
+const cacheName = "v1.1.0";
 const precacheList = ["/"];
 
 self.addEventListener("install", (e) => {
@@ -38,6 +38,7 @@ self.addEventListener("fetch", (e) => {
 
 //Clear cache on activate
 self.addEventListener("activate", (e) => {
+  console.log(cache.keys(), `being removed from caches`);
   e.waitUntil(
     caches.keys().then((keyList) => {
       return Promise.all(
